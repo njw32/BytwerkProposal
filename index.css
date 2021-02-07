@@ -1,0 +1,35 @@
+.headerImg{
+  height: 3.5vw;
+  min-height: 40px;
+}
+.calvinImg{
+  float: right;
+  margin-right: .3vw;
+}
+.title{
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .headerImg{
+    height: 15px;
+  }
+}
+.prop{
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  width: 250px;
+}
+
+@media (min-width:768px) {
+  .prop{
+    display: inline;
+  }
+  .card{
+    display: inline-flex;
+  }
+  .desc{
+    margin-left: 15px;
+    padding-top: 100px;
+  }
+}
